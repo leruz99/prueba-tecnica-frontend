@@ -1,0 +1,82 @@
+/* Register.css */
+.register-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .register-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .register-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .register-form label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .register-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .register-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .register-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-form .error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .register-form .success {
+    color: green;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .register-form .link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .register-form .link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register-form .link a:hover {
+    text-decoration: underline;
+  }
+  

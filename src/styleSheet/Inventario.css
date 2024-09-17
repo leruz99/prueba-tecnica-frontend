@@ -1,0 +1,55 @@
+.inventario-page {
+    padding: 20px;
+  }
+  
+  .inventario-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .inventario-container {
+    margin-bottom: 20px;
+  }
+  
+  .inventario-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .inventario-table th,
+  .inventario-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .inventario-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .download-pdf-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .download-pdf-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .download-pdf-button:hover {
+    background-color: #45a049;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
